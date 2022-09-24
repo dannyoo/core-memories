@@ -1,0 +1,72 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "core memories",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "record",
+          "slots": [
+            {
+              "name": "story",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "record {story}",
+            "record my story ",
+            "record my memory",
+            "record a memory",
+            "record",
+            "record a story"
+          ]
+        },
+        {
+          "name": "prompt",
+          "slots": [],
+          "samples": [
+            "give me another prompt",
+            "give me a story prompt",
+            "prompt",
+            "provide a prompt",
+            "give me a prompt"
+          ]
+        },
+        {
+          "name": "retell",
+          "slots": [],
+          "samples": [
+            "say a core story",
+            "tell a random memory",
+            "tell a core memory",
+            "tell a momory",
+            "tell a story",
+            "retell a memory",
+            "retell a story"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "6"
+}

@@ -1,0 +1,70 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Record and retell inspiring your core memories.",
+          "examplePhrases": [
+            "Alexa open core memories",
+            "Give me a prompt",
+            "Retell a story"
+          ],
+          "keywords": [],
+          "name": "Core Memories",
+          "description": "Stay sharp and remember the great times in life with loved ones. \"About 1 in 9 people (10.7%) age 65 and older have Alzheimer\u0027s disease\", according to the Alzheimer’s Association. Roughly half of that demographic can read and write in the USA [2]. Nobody wants to forget core memories. People can use habitual retelling to reinforce their core memories like a muscle [1]. Most of our favorite memories live as spoken stories. Let\u0027s reconnect with them.\n\nReferences:\n[1] Xue, Yanmin, and Yuanle Zhang. \"Research on the design of intelligent cognitive training products for the elderly.\" Journal of Physics: Conference Series. Vol. 1601. No. 5. IOP Publishing, 2020.\n[2] U.S. Department of Education, National Center for Education Statistics. (2019). Highlights of the 2017 U.S. PIAAC Results Web Report (NCES 2020-777) and PIAAC International Highlights Web Report (NCES 2020-127).",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "#AlexaSkillsChallenge\n- \"Alexa, open core memories\" - opens app\n- \"Provide me a prompt\" - provides a prompt\n- \"Record a story\" - shows you how to record a story\n- \"Record {your story}\"\n- \"Retell a story\" - retells a random story\n#AlexaSkillsChallenge",
+      "category": "HOME_SERVICES",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": [
+        "US"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:413290389714:function:52124988-756c-490f-a1a9-fae8926fa3fa:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:413290389714:function:52124988-756c-490f-a1a9-fae8926fa3fa:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:413290389714:function:52124988-756c-490f-a1a9-fae8926fa3fa:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:413290389714:function:52124988-756c-490f-a1a9-fae8926fa3fa:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false
+      },
+      "usesPersonalInfo": false
+    }
+  }
+}
